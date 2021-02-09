@@ -99,6 +99,13 @@ public class Execution {
 		return element;
 	}
 	
+	public static WebElement signUpUi(WebDriver driver) {
+		element=driver.findElement(By.cssSelector(".registration_redesign"));
+		return element;
+	}
+	
+	
+	
 	
 	
 	
